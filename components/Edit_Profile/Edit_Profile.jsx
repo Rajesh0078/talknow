@@ -32,11 +32,6 @@ const Edit_Profile = ({ user }) => {
             obj.photo_url = file
             setPhotos((prev) => [...prev, obj])
         }
-
-        // const formData = new FormData();
-        // formData.append('image', files[0]);
-
-        // await imgUpload(formData)
     }
 
     const editHandler = (data) => {
