@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import { client_routes } from "./lib/helpers"
 
-const url = "https://talknow-rf05.onrender.com"
+const url = "https://arjunaartistry.com"
 
 export async function middleware(req, res) {
 
