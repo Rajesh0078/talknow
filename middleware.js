@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import { client_routes } from "./lib/helpers"
 
-const url = "http://localhost:3000"
+const url = "https://talknow.vercel.app"
 
 export async function middleware(req, res) {
 
